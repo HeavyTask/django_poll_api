@@ -13,7 +13,7 @@ class ChoiceSerializer(serializers.ModelSerializer):
     vote = VoteSerializer(many=True, required=False)
 
     class Meta:
-        model = Vote
+        model = Choice
         fields = '__all__'
 
 
